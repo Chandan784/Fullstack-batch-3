@@ -1,0 +1,33 @@
+* {
+  background-color: rgb(232, 226, 226);
+}
+
+/* h1 {
+  color: aqua;
+  background-color: black;
+} */
+
+/* .heading {
+  color: white;
+  font-size: 100px;
+} */
+
+/* #head1 {
+  background-color: green;
+} */
+
+.box h1,
+.box p {
+  color: red;
+}
+
+.box h1 {
+  color: aqua;
+}
+
+#head1 {
+  color: green;
+}
+#uText {
+  color: yellow;
+}

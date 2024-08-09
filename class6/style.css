@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  height: 400px;
+  width: 600px;
+  background-color: aqua;
+  font-size: 20px;
+}
+.child {
+  height: 80px;
+  width: 5em;
+
+  background-color: brown;
+
+  /* padding: 10px;
+  box-sizing: border-box;
+  border: 5px;
+  margin: 100px;
+  padding: 20px; */
+}
+
+div h1 {
+  color: white;
+}
+
+/* px
+%
+vh
+vw
+rem
+em */
