@@ -1,0 +1,49 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  /* animation-name: chngClr, rotateBox;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+  animation: chngClr 3s linear 1s infinite;
+
+  /* transition: all 2s 1s linear; */
+}
+
+/* .box:hover {
+  transform: rotate(30deg);
+  transform: scale(2);
+  transform: translate(100px, 200px);
+  transform: translateX(100px);
+  transform: skew(30deg, 40deg);
+
+} */
+
+@keyframes rotateBox {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes chngClr {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: red;
+  }
+}
