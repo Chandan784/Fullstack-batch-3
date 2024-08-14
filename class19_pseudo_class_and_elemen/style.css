@@ -1,0 +1,63 @@
+/* //pseudo class */
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: aqua;
+}
+
+h1:nth-child(3) {
+  background-color: red;
+}
+h1:hover {
+  background-color: green;
+}
+
+input:required {
+  background-color: black;
+}
+
+input:read-only {
+  background-color: rgb(171, 20, 20);
+}
+
+input:focus {
+  outline-color: green;
+  outline-width: 40px;
+}
+
+/* pseudo element */
+
+h1:first-child::after {
+  content: "chandan";
+}
+
+h1:first-child::before {
+  content: "chandan";
+}
+p {
+  position: relative;
+  background-color: aqua;
+  display: inline-block;
+}
+p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 0px;
+  height: 5px;
+}
+
+p:hover::after {
+  content: "";
+  height: 5px;
+  background-color: green;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: all 3s;
+}

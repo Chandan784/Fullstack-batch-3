@@ -7,19 +7,19 @@
   animation-delay: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite; */
-  animation: chngClr 3s linear 1s infinite;
+  /* animation: moveToCorner 3s linear 1s infinite; */
 
   /* transition: all 2s 1s linear; */
 }
 
-/* .box:hover {
-  transform: rotate(30deg);
-  transform: scale(2);
-  transform: translate(100px, 200px);
-  transform: translateX(100px);
-  transform: skew(30deg, 40deg);
-
-} */
+.box:hover {
+  /* transform: rotate(30deg); */
+  /* transform-origin: top; */
+  /* transform: scale(2); */
+  /* transform: translate(100px, 200px); */
+  /* transform: translateX(100px);
+  transform: skew(30deg, 40deg); */
+}
 
 @keyframes rotateBox {
   from {
@@ -45,5 +45,28 @@
   }
   100% {
     background-color: red;
+  }
+}
+
+@keyframes moveToCorner {
+  0% {
+    background-color: red;
+    transform: translate(0px, 0px);
+  }
+  25% {
+    background-color: green;
+    transform: translate(300px, 0px);
+  }
+  50% {
+    background-color: yellow;
+    transform: translate(300px, 600px);
+  }
+  75% {
+    background-color: aqua;
+    transform: translate(0px, 600px);
+  }
+  100% {
+    background-color: red;
+    transform: translate(0px, 0px);
   }
 }
