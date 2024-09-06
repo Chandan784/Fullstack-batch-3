@@ -73,16 +73,20 @@ console.log("applute");
 
 //
 
-let x = 2;
+// let x = 2;
 
-let z;
+// let z;
 
-z = 20;
+// z = 20;
 
-let z = 20
+// let z = 20
 
-let arr = [2,3,4,5,]
+// let arr = [2,3,4,5,]
 
-stack -- arr
+// stack -- arr
 
-heap -- [2,3,4,5,]
+// heap -- [2,3,4,5,]
+
+// String
+// Array
+// Object
