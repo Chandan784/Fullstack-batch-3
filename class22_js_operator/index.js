@@ -2,26 +2,28 @@ console.log("opeartor");
 
 //arithmatic operator
 
-let x = 11;
-let y = 10;
+// let x = 11;
+// let y = 10;
 
-console.log(typeof y);
+// console.log(typeof y);
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
 
 //Realtional opearator
 
-console.log(x > y);
-console.log(x < y);
-console.log(x >= y);
-console.log(x <= y);
-console.log(x == y);
-console.log(x === y);
-console.log(x != y);
+// console.log(x > y);
+// console.log(x < y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x == y);
+// console.log(x === y);
+// console.log(x != y);
+
+// "2" === 2
 
 //logical AND , logical OR
 
@@ -47,7 +49,7 @@ console.log(x != y);
 
 //asignment opearator
 
-let num = 2;
+// let num = 2;
 // console.log((num += 2));
 
 // num = num + 2;
@@ -74,4 +76,17 @@ let num = 2;
 
 // ternary operator
 
-num < 1 ? console.log("correct") : console.log("wrong");
+// num < 1 ? console.log("correct") : console.log("wrong");
+
+// let num1 = 1 + "";
+
+// console.log(typeof num1);
+
+// num1 = String(num1);
+
+// console.log(typeof num1);
+
+// let num = +"2";
+// console.log(typeof num);
+// num = Number(num);
+// console.log(typeof num);
