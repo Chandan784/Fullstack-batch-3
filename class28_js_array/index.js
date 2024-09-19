@@ -91,18 +91,18 @@
 //   console.log(students[index]);
 // });
 
-let numbers = [2, 3, 5, 6, 7];
+// let numbers = [2, 3, 5, 6, 7];
 
-let target = 11;
+// let target = 11;
 
-function searchNum(arr, targetNumber) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == targetNumber) {
-      return true;
-    }
-  }
+// function searchNum(arr, targetNumber) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == targetNumber) {
+//       return true;
+//     }
+//   }
 
-  return false;
-}
+//   return false;
+// }
 
-console.log(searchNum(numbers, target));
+// console.log(searchNum(numbers, target));
