@@ -46,5 +46,5 @@
 
 // console.log(value.length);
 
-let username = "12345";
-console.log(username.split("3"));
+// let username = "12345";
+// console.log(username.split("3"));
