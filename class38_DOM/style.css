@@ -1,0 +1,13 @@
+.light {
+  height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+}
