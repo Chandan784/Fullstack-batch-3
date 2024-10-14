@@ -14,7 +14,7 @@
   width: 15%;
 }
 
-/* .parent2 h1 {
+.parent2 h1 {
   color: yellow;
 }
 
@@ -24,7 +24,7 @@
 
 .sidebar2 div {
   flex-direction: column;
-} */
+}
 
 button {
   height: 100px;

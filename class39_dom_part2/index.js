@@ -6,9 +6,9 @@
 
 // heading.classList.add(".heading2");
 
-// let toggle = document.querySelector("button");
+let toggle = document.querySelector("button");
 
-// let sideBar = document.querySelector(".parent");
+let sideBar = document.querySelector(".parent");
 // console.log(sideBar);
 
 // console.log(sideBar.getAttribute("id"));
@@ -16,9 +16,9 @@
 // sideBar.setAttribute("id", "change");
 // console.log(sideBar.getAttribute("id"));
 
-// toggle.addEventListener("click", () => {
-//   sideBar.classList.toggle("parent2");
-// });
+toggle.addEventListener("click", () => {
+  sideBar.classList.toggle("parent2");
+});
 
 //change image project
 
