@@ -1,0 +1,12 @@
+#head {
+  color: green;
+}
+
+.diff {
+  color: aqua;
+}
+
+.navbar {
+  height: 15vh;
+  background-color: red;
+}

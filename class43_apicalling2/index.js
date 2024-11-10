@@ -71,29 +71,29 @@
 
 //data send to api with fetch
 
-async function sendUserData() {
-  let email = document.querySelector("#email").value;
-  let password = document.querySelector("#pass").value;
+// async function sendUserData() {
+//   let email = document.querySelector("#email").value;
+//   let password = document.querySelector("#pass").value;
 
-  console.log(email, password);
+//   console.log(email, password);
 
-  fetch("/user", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      headers: "application/json",
-    },
-    body: JSON.stringify({
-      email,
-      password,
-    }),
-  });
-}
+//   fetch("/user", {
+//     method: "PATCH",
+//     headers: {
+//       "Content-Type": "application/json",
+//       headers: "application/json",
+//     },
+//     body: JSON.stringify({
+//       email,
+//       password,
+//     }),
+//   });
+// }
 
-let signUp = document.querySelector("#signup");
+// let signUp = document.querySelector("#signup");
 
-signUp.addEventListener("click", (e) => {
-  e.preventDefault();
+// signUp.addEventListener("click", (e) => {
+//   e.preventDefault();
 
-  sendUserData();
-});
+//   sendUserData();
+// });
