@@ -6,6 +6,7 @@ import Todos from "./Todos";
 import AddTodo from "./AddTodo";
 import { TodoProvider } from "./store/Store";
 function App() {
+  localStorage.removeItem("name");
   return (
     <div>
       <TodoProvider>
