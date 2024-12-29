@@ -10,7 +10,12 @@ export let user = createSlice({
     error: "",
     oneElementData: null,
   },
-  reducers: {},
+  reducers: {
+    getAllUser: (state, action) => {
+      state.data = action.payload;
+    },
+    getSingleUser: (state, action) => {},
+  },
   extraReducers: (builder) => {
     builder
       // GET ALL BLOG INFO
@@ -31,4 +36,5 @@ export let user = createSlice({
   },
 });
 
+export let { getAllUser, getSingleUser } = user.actions;
 export default user.reducer;

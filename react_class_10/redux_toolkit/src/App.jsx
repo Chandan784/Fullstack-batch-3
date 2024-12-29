@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import { getAllUser } from "./redux/api/user";
+import { getSingleUser } from "./redux/slice/userSlice";
 
 function App() {
   // let [userData, setUserData] = useState([]);
